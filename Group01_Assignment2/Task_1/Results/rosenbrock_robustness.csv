@@ -1,0 +1,46 @@
+Starting Point,Optimizer,Learning Rate,Final x,Final y,"Final f(x,y)",Iterations,Status
+"(np.float64(-1.5), np.float64(2.0))",Gradient Descent,0.01,,,,10000,Diverged
+"(np.float64(-1.5), np.float64(2.0))",Gradient Descent,0.05,,,,10000,Diverged
+"(np.float64(-1.5), np.float64(2.0))",Gradient Descent,0.1,,,,10000,Diverged
+"(np.float64(-1.5), np.float64(2.0))",Momentum,0.01,,,,10000,Diverged
+"(np.float64(-1.5), np.float64(2.0))",Momentum,0.05,,,,10000,Diverged
+"(np.float64(-1.5), np.float64(2.0))",Momentum,0.1,,,,10000,Diverged
+"(np.float64(-1.5), np.float64(2.0))",RMSprop,0.01,0.9801426071994833,0.9755309375808241,0.022450745431916035,10000,Hit max_iter (not converged)
+"(np.float64(-1.5), np.float64(2.0))",RMSprop,0.05,0.7250000002938213,0.46562500045221145,0.4356249995243515,10000,Hit max_iter (not converged)
+"(np.float64(-1.5), np.float64(2.0))",RMSprop,0.1,0.3000000007587716,0.015000000439034891,1.0524999991811406,10000,Hit max_iter (not converged)
+"(np.float64(-1.5), np.float64(2.0))",Adagrad,0.01,-1.0718875476836307,1.155444451317328,4.296945007852083,10000,Hit max_iter (not converged)
+"(np.float64(-1.5), np.float64(2.0))",Adagrad,0.05,0.8954217814144251,0.8014553244542567,0.010947156046536264,10000,Hit max_iter (not converged)
+"(np.float64(-1.5), np.float64(2.0))",Adagrad,0.1,0.9892989059035935,0.9786804752810585,0.00011461485673424408,10000,Hit max_iter (not converged)
+"(np.float64(-1.5), np.float64(2.0))",Adam,0.01,0.9999994880020494,0.9999989745073553,2.623660039960696e-13,4520,Converged
+"(np.float64(-1.5), np.float64(2.0))",Adam,0.05,0.9999996835827512,0.9999993662393895,1.0020566241901703e-13,2105,Converged
+"(np.float64(-1.5), np.float64(2.0))",Adam,0.1,0.9999997579692405,0.9999995152293744,5.862918009001099e-14,1541,Converged
+"(np.float64(0.0), np.float64(0.0))",Gradient Descent,0.01,,,,10000,Diverged
+"(np.float64(0.0), np.float64(0.0))",Gradient Descent,0.05,,,,10000,Diverged
+"(np.float64(0.0), np.float64(0.0))",Gradient Descent,0.1,,,,10000,Diverged
+"(np.float64(0.0), np.float64(0.0))",Momentum,0.01,,,,10000,Diverged
+"(np.float64(0.0), np.float64(0.0))",Momentum,0.05,,,,10000,Diverged
+"(np.float64(0.0), np.float64(0.0))",Momentum,0.1,,,,10000,Diverged
+"(np.float64(0.0), np.float64(0.0))",RMSprop,0.01,0.9801450786598691,0.9755358149777081,0.022450744185657637,10000,Hit max_iter (not converged)
+"(np.float64(0.0), np.float64(0.0))",RMSprop,0.05,0.6750000003236313,0.515625000410737,0.46562499947565683,10000,Hit max_iter (not converged)
+"(np.float64(0.0), np.float64(0.0))",RMSprop,0.1,0.30000000075877226,0.015000000439035252,1.0524999991811403,10000,Hit max_iter (not converged)
+"(np.float64(0.0), np.float64(0.0))",Adagrad,0.01,0.9768977833307876,0.954299358616464,0.0005338019384247492,10000,Hit max_iter (not converged)
+"(np.float64(0.0), np.float64(0.0))",Adagrad,0.05,0.9999797305288439,0.9999593848766992,4.1143809194386374e-10,10000,Hit max_iter (not converged)
+"(np.float64(0.0), np.float64(0.0))",Adagrad,0.1,0.9999775792691868,0.9999550739100844,5.03413898545814e-10,10000,Hit max_iter (not converged)
+"(np.float64(0.0), np.float64(0.0))",Adam,0.01,0.9999998349686157,0.9999996694230747,2.7261796314554572e-14,1199,Converged
+"(np.float64(0.0), np.float64(0.0))",Adam,0.05,0.9999755639746146,0.9999510707116173,5.974538222496773e-10,10000,Hit max_iter (not converged)
+"(np.float64(0.0), np.float64(0.0))",Adam,0.1,0.9999601264869917,0.9999200802968347,1.5929339399456935e-09,10000,Hit max_iter (not converged)
+"(np.float64(2.0), np.float64(-1.0))",Gradient Descent,0.01,,,,10000,Diverged
+"(np.float64(2.0), np.float64(-1.0))",Gradient Descent,0.05,,,,10000,Diverged
+"(np.float64(2.0), np.float64(-1.0))",Gradient Descent,0.1,,,,10000,Diverged
+"(np.float64(2.0), np.float64(-1.0))",Momentum,0.01,,,,10000,Diverged
+"(np.float64(2.0), np.float64(-1.0))",Momentum,0.05,,,,10000,Diverged
+"(np.float64(2.0), np.float64(-1.0))",Momentum,0.1,,,,10000,Diverged
+"(np.float64(2.0), np.float64(-1.0))",RMSprop,0.01,0.980145236505911,0.9755361264853578,0.022450744106481242,10000,Hit max_iter (not converged)
+"(np.float64(2.0), np.float64(-1.0))",RMSprop,0.05,0.675000000323756,0.5156250004109121,0.46562499947565705,10000,Hit max_iter (not converged)
+"(np.float64(2.0), np.float64(-1.0))",RMSprop,0.1,0.20000000089035122,0.11500000037236859,1.2024999988188596,10000,Hit max_iter (not converged)
+"(np.float64(2.0), np.float64(-1.0))",Adagrad,0.01,0.9125445368572445,0.29863271984381506,28.534443467954294,10000,Hit max_iter (not converged)
+"(np.float64(2.0), np.float64(-1.0))",Adagrad,0.05,0.767458416665405,0.5883156193262178,0.05412139407236275,10000,Hit max_iter (not converged)
+"(np.float64(2.0), np.float64(-1.0))",Adagrad,0.1,0.788180627264671,0.6206187803464445,0.0449046470101788,10000,Hit max_iter (not converged)
+"(np.float64(2.0), np.float64(-1.0))",Adam,0.01,0.995212027421723,0.9904338199532841,2.2941998842729044e-05,10000,Hit max_iter (not converged)
+"(np.float64(2.0), np.float64(-1.0))",Adam,0.05,0.9999993481339369,0.9999986945093031,4.25238770776958e-13,7591,Converged
+"(np.float64(2.0), np.float64(-1.0))",Adam,0.1,0.9999994058952525,0.9999988101815541,3.5321943688507877e-13,5760,Converged
